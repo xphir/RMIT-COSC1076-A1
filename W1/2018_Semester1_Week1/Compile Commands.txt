@@ -1,9 +1,0 @@
-# Option 1 Directly compile the executable
-gcc -ansi -pedantic -Wall -o main.exe main.c
-
-# Option 2 Compile object files then link them into an executable
-gcc -ansi -pedantic -Wall -c main.c
-gcc -ansi -pedantic -Wall -o main.exe main.o
-
-# Option 3 Makefile (covered later in the course)
-make
